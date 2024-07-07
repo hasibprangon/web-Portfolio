@@ -7,10 +7,21 @@
   font-variation-settings:
     "wdth" 100;
 }
-
+.header{
+   background-image: url('../images/developer.png'), url('../images/header_bg.png');
+   background-repeat: no-repeat;
+   background-position: top left, bottom right;
+}
+/* nav style */
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+}
 nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 0 35px 0 230px;
 }
 
 nav li{
@@ -19,5 +30,50 @@ nav li{
 }
 nav li>a{
     text-decoration: none;
-    margin-right: 10px;
+    margin-right: 50px;
+    color: #474747;
+    font-size: 20px;
+}
+
+.banner{
+    display: flex;
+    justify-content:space-between;
+    margin: 0 35px 0 230px;
+}
+
+.banner-content{
+    margin-top: 100px;
+    max-width: 550px;
+}
+.bnr-greetings{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin: 0;
+}
+.bnr-title{
+font-size: 85px;
+font-weight: 700;
+color: #181818;
+margin: 0;
+}
+.banner-description{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.bnr-pro-pic{
+    width: 580px;
+}
+
+/* common style */
+.btn-primary{
+    width: 125px;
+    height: 50px;
+    border-radius: 5px;
+    background-color:  rgb(253, 111, 10);
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
 }
